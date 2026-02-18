@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 # Configure Gemini API key
-genai.configure(api_key="AIzaSyAzcoFa8C1kmiITDbdQLCMcaKBMV02dSJ0")
+genai.configure(api_key="YOUR_API_KEY")
 
 
 # Function to generate travel itinerary using chat session
